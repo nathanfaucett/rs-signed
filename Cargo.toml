@@ -1,0 +1,6 @@
+[package]
+name = "signum"
+version = "0.1.0"
+authors = ["nathanfaucett <nathanfaucett@gmail.com>"]
+
+[dependencies]

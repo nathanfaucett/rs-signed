@@ -1,0 +1,4 @@
+rs-signum
+=====
+
+signum trait
