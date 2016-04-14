@@ -3,4 +3,11 @@ name = "signum"
 version = "0.1.0"
 authors = ["nathanfaucett <nathanfaucett@gmail.com>"]
 
+keywords = ["signum"]
+description = "signum trait"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/nathanfaucett/rs-signum.git"
+homepage = "https://github.com/nathanfaucett/rs-signum"
+
 [dependencies]
