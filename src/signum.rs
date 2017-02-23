@@ -9,7 +9,7 @@ macro_rules! trait_signum_unsigned {
         impl Signum for $t {
             #[inline(always)]
             fn signum(self) -> Self {
-                if self > 0 {1} else {0}
+                if self != 0 {1} else {0}
             }
         }
     );
