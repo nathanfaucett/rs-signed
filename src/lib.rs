@@ -1,7 +1,11 @@
+#![feature(core_intrinsics)]
 #![no_std]
 
 
-mod signum;
+extern crate num;
 
 
-pub use signum::Signum;
+mod signed;
+
+
+pub use signed::Signed;

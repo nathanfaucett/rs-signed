@@ -1,4 +1,4 @@
-rs-signum
+rs-signed
 =====
 
-signum trait
+signed trait

@@ -1,13 +1,14 @@
 [package]
-name = "signum"
+name = "signed"
 version = "0.1.0"
 authors = ["nathanfaucett <nathanfaucett@gmail.com>"]
 
-keywords = ["signum"]
-description = "signum trait"
+keywords = ["signed"]
+description = "signed trait"
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/nathanfaucett/rs-signum.git"
-homepage = "https://github.com/nathanfaucett/rs-signum"
+repository = "https://github.com/nathanfaucett/rs-signed.git"
+homepage = "https://github.com/nathanfaucett/rs-signed"
 
 [dependencies]
+num = {git = "https://github.com/nathanfaucett/rs-num.git"}
