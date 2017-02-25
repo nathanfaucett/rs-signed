@@ -6,7 +6,7 @@ use core::ops::Neg;
 use num::Num;
 
 
-pub trait Signed: Num + Neg {
+pub trait Signed: Num + Neg<Output=Self> {
     /// # Example
     /// ```rust
     /// use signed::Signed;
